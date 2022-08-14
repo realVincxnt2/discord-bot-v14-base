@@ -1,10 +1,10 @@
-const { Client } = require("discord.js");
+const ExtendedClient = require("../../structures/extendedClient");
 
 module.exports = {
   name: "ready",
   once: true,
   /**
-   * @param {Client} client
+   * @param {ExtendedClient} client
    */
   async execute(client) {
     console.log(`${client.user.tag} is logged in`);

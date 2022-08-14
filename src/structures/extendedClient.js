@@ -46,7 +46,6 @@ module.exports = class extends Client {
     this.events = new Collection();
     this.commands = new Collection();
     this.commandArray = [];
-    this.cooldowns = new Collection();
     this.botConfig = require("../utils/config.js");
   }
 };
